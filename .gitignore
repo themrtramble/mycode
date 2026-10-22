@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.node_removal_history
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+.atom/
+
+# MyCode local config (NEVER commit user secrets)
+# Users have their own ~/.mycode/ - this is for project-local dev
+.mycode-local/
+test_output/
+*.log
+
+# Test artifacts
+hello.py
+test_hello.py.bak

@@ -1,0 +1,43 @@
+{
+  "name": "mycode-cli",
+  "version": "1.0.0",
+  "description": "MyCode - Open Source Multi-Agent AI Coding Assistant (OpenCode-style clone)",
+  "main": "bin/mycode.js",
+  "bin": {
+    "mycode": "bin/mycode.js"
+  },
+  "scripts": {
+    "start": "node bin/mycode.js",
+    "chat": "node bin/mycode.js chat",
+    "agent": "node bin/mycode.js agent",
+    "providers": "node bin/mycode.js provider list",
+    "prompts": "node bin/mycode.js prompts list"
+  },
+  "keywords": [
+    "ai",
+    "cli",
+    "coding-assistant",
+    "multi-agent",
+    "opencode",
+    "llm",
+    "groq",
+    "gemini",
+    "openrouter",
+    "deepseek",
+    "agent"
+  ],
+  "author": "themrtramble <themrtramble@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/themrtramble/mycode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/themrtramble/mycode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/themrtramble/mycode/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {}
+}
